@@ -17348,7 +17348,7 @@
   position:absolute;
   left:0px;
   top:0px;
-  width:253px;
+  width:121px;
   height:20px;
   background:inherit;
   background-color:rgba(255, 255, 255, 0);
@@ -17362,8 +17362,8 @@
   border-width:0px;
   position:absolute;
   left:2114px;
-  top:467px;
-  width:253px;
+  top:816px;
+  width:121px;
   height:20px;
   display:flex;
 }
@@ -17384,7 +17384,7 @@
   position:absolute;
   left:0px;
   top:0px;
-  width:398px;
+  width:253px;
   height:20px;
   background:inherit;
   background-color:rgba(255, 255, 255, 0);
@@ -17398,8 +17398,8 @@
   border-width:0px;
   position:absolute;
   left:2114px;
-  top:216px;
-  width:398px;
+  top:467px;
+  width:253px;
   height:20px;
   display:flex;
 }
@@ -17411,6 +17411,78 @@
   width:100%;
 }
 #u533_text {
+  border-width:0px;
+  white-space:nowrap;
+  text-transform:none;
+}
+#u534_div {
+  border-width:0px;
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:398px;
+  height:20px;
+  background:inherit;
+  background-color:rgba(255, 255, 255, 0);
+  border:none;
+  border-radius:0px;
+  -moz-box-shadow:none;
+  -webkit-box-shadow:none;
+  box-shadow:none;
+}
+#u534 {
+  border-width:0px;
+  position:absolute;
+  left:2114px;
+  top:216px;
+  width:398px;
+  height:20px;
+  display:flex;
+}
+#u534 .text {
+  position:absolute;
+  align-self:flex-start;
+  padding:0px 0px 0px 0px;
+  box-sizing:border-box;
+  width:100%;
+}
+#u534_text {
+  border-width:0px;
+  white-space:nowrap;
+  text-transform:none;
+}
+#u535_div {
+  border-width:0px;
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:253px;
+  height:60px;
+  background:inherit;
+  background-color:rgba(255, 255, 255, 0);
+  border:none;
+  border-radius:0px;
+  -moz-box-shadow:none;
+  -webkit-box-shadow:none;
+  box-shadow:none;
+}
+#u535 {
+  border-width:0px;
+  position:absolute;
+  left:2114px;
+  top:86px;
+  width:253px;
+  height:60px;
+  display:flex;
+}
+#u535 .text {
+  position:absolute;
+  align-self:flex-start;
+  padding:0px 0px 0px 0px;
+  box-sizing:border-box;
+  width:100%;
+}
+#u535_text {
   border-width:0px;
   white-space:nowrap;
   text-transform:none;
