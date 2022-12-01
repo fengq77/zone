@@ -147,8 +147,8 @@
   position:absolute;
   left:0px;
   top:0px;
-  width:169px;
-  height:16px;
+  width:213px;
+  height:32px;
   background:inherit;
   background-color:rgba(255, 255, 255, 0);
   border:none;
@@ -156,6 +156,9 @@
   -moz-box-shadow:none;
   -webkit-box-shadow:none;
   box-shadow:none;
+  font-family:'兰亭黑-简 纤黑', '兰亭黑-简', sans-serif;
+  font-weight:200;
+  font-style:normal;
   font-size:12px;
 }
 #u201 {
@@ -163,9 +166,12 @@
   position:absolute;
   left:35px;
   top:111px;
-  width:169px;
-  height:16px;
+  width:213px;
+  height:32px;
   display:flex;
+  font-family:'兰亭黑-简 纤黑', '兰亭黑-简', sans-serif;
+  font-weight:200;
+  font-style:normal;
   font-size:12px;
 }
 #u201 .text {

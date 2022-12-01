@@ -51,7 +51,7 @@
   text-align:left;
 }
 ._三级标题 {
-  font-family:'FZLTXHK--GBK1-0', 'Lantinghei SC Extralight', 'Lantinghei SC', sans-serif;
+  font-family:'FZLTZHK--GBK1-0', 'Lantinghei SC Demibold', 'Lantinghei SC', sans-serif;
   font-weight:bold;
   font-style:normal;
   font-size:18px;
@@ -109,16 +109,34 @@
   color:#000000;
   text-align:left;
 }
+.droplist {
+  color:#000000;
+  text-align:left;
+}
+.checkbox {
+  text-align:left;
+}
+.radio_button {
+  text-align:left;
+}
 .table_cell {
   font-family:'FZLTXHK--GBK1-0', 'Lantinghei SC Extralight', 'Lantinghei SC', sans-serif;
   font-weight:200;
   font-style:normal;
+}
+._线段 {
 }
 ._连接 {
   font-family:'FZLTXHK--GBK1-0', 'Lantinghei SC Extralight', 'Lantinghei SC', sans-serif;
   font-weight:200;
   font-style:normal;
   font-size:17px;
+}
+.sticky_1 {
+  font-family:'FZLTXHK--GBK1-0', 'Lantinghei SC Extralight', 'Lantinghei SC', sans-serif;
+  font-weight:200;
+  font-style:normal;
+  text-align:left;
 }
 .form_hint {
   font-family:'FZLTXHK--GBK1-0', 'Lantinghei SC Extralight', 'Lantinghei SC', sans-serif;
@@ -146,5 +164,14 @@
   font-family:'FZLTXHK--GBK1-0', 'Lantinghei SC Extralight', 'Lantinghei SC', sans-serif;
   font-weight:200;
   font-style:normal;
+}
+._形状 {
+  font-family:'ArialMT', 'Arial', sans-serif;
+  font-weight:normal;
+  font-style:normal;
+  font-size:13px;
+  color:#FFFFFF;
+  text-align:center;
+  line-height:normal;
 }
 textarea, select, input, button { outline: none; }
