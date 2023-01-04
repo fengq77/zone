@@ -518,7 +518,7 @@
       <div id="u263" class="ax_default label">
         <div id="u263_div" class=""></div>
         <div id="u263_text" class="text ">
-          <ul><li style=""><span>SOME/IP设置，默认SOME/IP界面，可以切换CAN/LIN通信，切换后需重起一个窗口</span></li></ul>
+          <ul><li style=""><span>SOME/IP设置，默认SOME/IP界面，可以切换CAN/LIN通信，切换后需重起一个窗口；</span><span style="color:#D9001B;">页面标题需显示当前通信名称和通道名称，如SOME/IP（通道名称）</span></li></ul>
         </div>
       </div>
 
@@ -526,7 +526,7 @@
       <div id="u264" class="ax_default label">
         <div id="u264_div" class=""></div>
         <div id="u264_text" class="text ">
-          <ul><li style=""><span>CAN设置（支持配置多通道）</span></li></ul>
+          <ul><li style=""><span>CAN设置（支持配置多通道）；</span><span style="color:#D9001B;">页面标题需显示当前通信名称和通道名称</span></li></ul>
         </div>
       </div>
 
@@ -534,7 +534,7 @@
       <div id="u265" class="ax_default label">
         <div id="u265_div" class=""></div>
         <div id="u265_text" class="text ">
-          <ul><li style=""><span>LIN设置（支持配置多通道）</span></li></ul>
+          <ul><li style=""><span>LIN设置（支持配置多通道）；</span><span style="color:#D9001B;">页面标题需显示当前通信名称和通道名称</span></li></ul>
         </div>
       </div>
 
@@ -576,7 +576,7 @@
       <div id="u270" class="ax_default label">
         <div id="u270_div" class=""></div>
         <div id="u270_text" class="text ">
-          <p><span>显示Equipment Name</span></p><p><span>选中哪个通道，则通信页面走对应的通道</span></p>
+          <p><span>显示渠道名称，默认“Channel+数字”可双击修改</span></p><p><span>选中哪个通道，则通信页面走对应的通道</span></p>
         </div>
       </div>
 
@@ -584,7 +584,7 @@
       <div id="u271" class="ax_default label">
         <div id="u271_div" class=""></div>
         <div id="u271_text" class="text ">
-          <p><span>显示Source名称</span></p><p><span>选中哪个通道，则通信页面走对应的通道</span></p>
+          <p><span>显示渠道名称，默认“Channel+数字”可双击修改</span></p><p><span>选中哪个通道，则通信页面走对应的通道</span></p>
         </div>
       </div>
 
@@ -592,7 +592,7 @@
       <div id="u272" class="ax_default label">
         <div id="u272_div" class=""></div>
         <div id="u272_text" class="text ">
-          <p><span>显示Equipment Name</span></p><p><span>选中哪个通道，则通信页面走对应的通道</span></p>
+          <p><span>显示渠道名称，默认“Channel+数字”可双击修改</span></p><p><span>选中哪个通道，则通信页面走对应的通道</span></p>
         </div>
       </div>
 
@@ -939,7 +939,7 @@
       <div id="u313" class="ax_default _文本段落">
         <div id="u313_div" class=""></div>
         <div id="u313_text" class="text ">
-          <p><span>127.0.0.3</span></p>
+          <p><span>Channel1</span></p>
         </div>
       </div>
 
@@ -955,7 +955,7 @@
       <div id="u315" class="ax_default _文本段落">
         <div id="u315_div" class=""></div>
         <div id="u315_text" class="text ">
-          <p><span>127.0.0.1</span></p>
+          <p><span>Channel2</span></p>
         </div>
       </div>
 
@@ -1202,7 +1202,7 @@
       <div id="u344" class="ax_default _文本段落">
         <div id="u344_div" class=""></div>
         <div id="u344_text" class="text ">
-          <p><span>Equipment Type：</span></p>
+          <p><span>Mode：</span></p>
         </div>
       </div>
 
@@ -1210,94 +1210,127 @@
       <div id="u345" class="ax_default droplist">
         <div id="u345_div" class=""></div>
         <select id="u345_input" class="u345_input">
-          <option class="u345_input_option" selected value="  PLIN">&nbsp; PLIN</option>
-        </select>
-      </div>
-
-      <!-- Unnamed (下拉列表) -->
-      <div id="u346" class="ax_default droplist">
-        <div id="u346_div" class=""></div>
-        <select id="u346_input" class="u346_input">
-          <option class="u346_input_option" value="  EM33MKDUJ007">&nbsp; EM33MKDUJ007</option>
+          <option class="u345_input_option" selected value="   Master">&nbsp;&nbsp; Master</option>
+          <option class="u345_input_option" value="   Slave">&nbsp;&nbsp; Slave</option>
         </select>
       </div>
 
       <!-- Unnamed (矩形) -->
-      <div id="u347" class="ax_default _文本段落">
+      <div id="u346" class="ax_default _文本段落">
+        <div id="u346_div" class=""></div>
+        <div id="u346_text" class="text ">
+          <p><span>Bit rate：</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (下拉列表) -->
+      <div id="u347" class="ax_default droplist">
         <div id="u347_div" class=""></div>
-        <div id="u347_text" class="text ">
+        <select id="u347_input" class="u347_input">
+          <option class="u347_input_option" selected value="   19200">&nbsp;&nbsp; 19200</option>
+        </select>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u348" class="ax_default _文本段落">
+        <div id="u348_div" class=""></div>
+        <div id="u348_text" class="text ">
+          <p><span>Equipment Type：</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (下拉列表) -->
+      <div id="u349" class="ax_default droplist">
+        <div id="u349_div" class=""></div>
+        <select id="u349_input" class="u349_input">
+          <option class="u349_input_option" selected value="  PLIN">&nbsp; PLIN</option>
+        </select>
+      </div>
+
+      <!-- Unnamed (下拉列表) -->
+      <div id="u350" class="ax_default droplist">
+        <div id="u350_div" class=""></div>
+        <select id="u350_input" class="u350_input">
+          <option class="u350_input_option" value="  EM33MKDUJ007">&nbsp; EM33MKDUJ007</option>
+        </select>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u351" class="ax_default _文本段落">
+        <div id="u351_div" class=""></div>
+        <div id="u351_text" class="text ">
           <p><span>Equipment Name：</span></p>
         </div>
       </div>
 
       <!-- Unnamed (连接) -->
-      <div id="u348" class="ax_default _连接">
-        <img id="u348_seg0" class="img " src="images/设置/u348_seg0.svg" alt="u348_seg0"/>
-        <img id="u348_seg1" class="img " src="images/设置/u348_seg1.svg" alt="u348_seg1"/>
-        <img id="u348_seg2" class="img " src="images/设置/u348_seg2.svg" alt="u348_seg2"/>
-        <img id="u348_seg3" class="img " src="images/设置/u348_seg3.svg" alt="u348_seg3"/>
-        <div id="u348_text" class="text " style="display:none; visibility: hidden">
+      <div id="u352" class="ax_default _连接">
+        <img id="u352_seg0" class="img " src="images/设置/u352_seg0.svg" alt="u352_seg0"/>
+        <img id="u352_seg1" class="img " src="images/设置/u352_seg1.svg" alt="u352_seg1"/>
+        <img id="u352_seg2" class="img " src="images/设置/u352_seg2.svg" alt="u352_seg2"/>
+        <img id="u352_seg3" class="img " src="images/设置/u352_seg3.svg" alt="u352_seg3"/>
+        <div id="u352_text" class="text " style="display:none; visibility: hidden">
           <p></p>
         </div>
       </div>
 
       <!-- Unnamed (连接) -->
-      <div id="u349" class="ax_default _连接">
-        <img id="u349_seg0" class="img " src="images/设置/u349_seg0.svg" alt="u349_seg0"/>
-        <img id="u349_seg1" class="img " src="images/设置/u349_seg1.svg" alt="u349_seg1"/>
-        <div id="u349_text" class="text " style="display:none; visibility: hidden">
+      <div id="u353" class="ax_default _连接">
+        <img id="u353_seg0" class="img " src="images/设置/u353_seg0.svg" alt="u353_seg0"/>
+        <img id="u353_seg1" class="img " src="images/设置/u353_seg1.svg" alt="u353_seg1"/>
+        <div id="u353_text" class="text " style="display:none; visibility: hidden">
           <p></p>
         </div>
       </div>
 
       <!-- Unnamed (矩形) -->
-      <div id="u350" class="ax_default _文本段落">
-        <div id="u350_div" class=""></div>
-        <div id="u350_text" class="text ">
+      <div id="u354" class="ax_default _文本段落">
+        <div id="u354_div" class=""></div>
+        <div id="u354_text" class="text ">
           <p><span>Network Channel：</span></p>
         </div>
       </div>
 
       <!-- Unnamed (下拉列表) -->
-      <div id="u351" class="ax_default droplist">
-        <div id="u351_div" class=""></div>
-        <select id="u351_input" class="u351_input">
-          <option class="u351_input_option" selected value="   IO">&nbsp;&nbsp; IO</option>
+      <div id="u355" class="ax_default droplist">
+        <div id="u355_div" class=""></div>
+        <select id="u355_input" class="u355_input">
+          <option class="u355_input_option" selected value="   IO">&nbsp;&nbsp; IO</option>
         </select>
       </div>
 
       <!-- Unnamed (矩形) -->
-      <div id="u352" class="ax_default _文本段落">
-        <div id="u352_div" class=""></div>
-        <div id="u352_text" class="text ">
+      <div id="u356" class="ax_default _文本段落">
+        <div id="u356_div" class=""></div>
+        <div id="u356_text" class="text ">
           <p><span>Source：</span></p>
         </div>
       </div>
 
       <!-- Unnamed (矩形) -->
-      <div id="u353" class="ax_default box_1">
-        <div id="u353_div" class=""></div>
-        <div id="u353_text" class="text ">
+      <div id="u357" class="ax_default box_1">
+        <div id="u357_div" class=""></div>
+        <div id="u357_text" class="text ">
           <p><span>&nbsp;&nbsp;&nbsp; 127.0.0.1</span></p>
         </div>
       </div>
 
       <!-- Unnamed (连接) -->
-      <div id="u354" class="ax_default _连接">
-        <img id="u354_seg0" class="img " src="images/设置/u354_seg0.svg" alt="u354_seg0"/>
-        <img id="u354_seg1" class="img " src="images/设置/u354_seg1.svg" alt="u354_seg1"/>
-        <div id="u354_text" class="text " style="display:none; visibility: hidden">
+      <div id="u358" class="ax_default _连接">
+        <img id="u358_seg0" class="img " src="images/设置/u358_seg0.svg" alt="u358_seg0"/>
+        <img id="u358_seg1" class="img " src="images/设置/u358_seg1.svg" alt="u358_seg1"/>
+        <div id="u358_text" class="text " style="display:none; visibility: hidden">
           <p></p>
         </div>
       </div>
 
       <!-- Unnamed (连接) -->
-      <div id="u355" class="ax_default _连接">
-        <img id="u355_seg0" class="img " src="images/设置/u355_seg0.svg" alt="u355_seg0"/>
-        <img id="u355_seg1" class="img " src="images/设置/u355_seg1.svg" alt="u355_seg1"/>
-        <img id="u355_seg2" class="img " src="images/设置/u355_seg2.svg" alt="u355_seg2"/>
-        <img id="u355_seg3" class="img " src="images/设置/u355_seg3.svg" alt="u355_seg3"/>
-        <div id="u355_text" class="text " style="display:none; visibility: hidden">
+      <div id="u359" class="ax_default _连接">
+        <img id="u359_seg0" class="img " src="images/设置/u359_seg0.svg" alt="u359_seg0"/>
+        <img id="u359_seg1" class="img " src="images/设置/u359_seg1.svg" alt="u359_seg1"/>
+        <img id="u359_seg2" class="img " src="images/设置/u359_seg2.svg" alt="u359_seg2"/>
+        <img id="u359_seg3" class="img " src="images/设置/u359_seg3.svg" alt="u359_seg3"/>
+        <div id="u359_text" class="text " style="display:none; visibility: hidden">
           <p></p>
         </div>
       </div>
