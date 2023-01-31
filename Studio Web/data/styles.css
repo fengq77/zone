@@ -61,6 +61,9 @@
   text-align:left;
 }
 .label {
+  font-family:'PingFangSC-Regular', 'PingFang SC', sans-serif;
+  font-weight:400;
+  font-style:normal;
   font-size:14px;
   text-align:left;
 }
@@ -91,7 +94,8 @@
 ._流程形状 {
 }
 ._连接 {
-  font-size:21px;
+  font-size:12px;
+  color:#02AEF8;
 }
 .sticky_1 {
   text-align:left;
